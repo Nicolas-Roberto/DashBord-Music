@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+h1 {
+    color :  #7fafdf;
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    line-height: 1.35;
+    letter-spacing: -.08rem;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+    font-weight: normal;
+    text-align: initial;
+    text-decoration: underline;
+}
+
+label {
+    color : #7fafdf;
+    font-family : 'Courier New';
+    font-size : 150%;
+    font-weight : bold;
+    text-align: center
+}
+div {
+    background-color: #252e3f;
+    color: #c8d4d3;  
+
+}
+p {
+    color: #7fafdf;
+    font-family : 'Dank Mono';
+    font-size : 125% 
+}
+
+img{
+    margin: 2%;
+    
+}
+
+.box1 {  
+    width: 48%;
+    display: inline-block;
+    margin: 10px;
+    background-color: #252e3f;
+}
+.box2 {
+    width: 48%;
+    display: inline-block;
+    margin: 10px;
+    background-color: #252e3f;
+}
+
+.box3 {
+    background-color: #1f2630;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: #c8d4d3;
+    font-family: "Dank Mono"
+}
+.divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2630
+}
+.mapa {
+    align-items: center;
+    justify-content: center;
+    margin: 1.5%;
+    background-color : #252e3f;
+}
+.dropdown {
+    color: #c8d4d3;
+    font-family: 'Dank Mono'
+}
+.Select, .Select div, .Select input, .Select span {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #c8d4d3;
+    font-family: "Dank Mono"
+}
+.imagem {
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 150px;
+    margin: auto;
+}
+.título {
+    margin: 2%;
+    background-color: #1f2630;
+}
+
+
