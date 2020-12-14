@@ -21,15 +21,21 @@ def mapa():
     # LÊ O CSV, DETERMINA AS COLUNAS A SEREM UTILIZADAS E ORDENA POR OUVINTES
 
     pais = df['paises']
-    artista = df['artistas']
     paises = []
-    artistas = []
-    for i in range(514853):   
-        if pais[i] not in paises and artista[i] not in artistas and type(pais[i]) == str:
+
+    for i in range(len(df)):   
+        if pais[i] not in paises and type(pais[i]) == str:
             paises.append(pais[i])
+# EVITA O APARECIMENTO DE NaN E FAZ COM QUE PAISES APAREÇAM APENAS UMA VEZ  
+
+    artista = df['artistas']
+    artistas = []
+    
+    for i in range(len(df)):   
+        if artista[i] not in artistas:
             artistas.append(artista[i])
 
-    # EVITA O APARECIMENTO DE NaN E FAZ COM QUE PAISES APAREÇAM APENAS UMA VEZ        
+          
 
     paises[paises.index('Soviet Union')] = 'Russia' # TROCA O NOME "SOVIET UNION" QUE APARECE NO CSV PARA RUSSIA
 
